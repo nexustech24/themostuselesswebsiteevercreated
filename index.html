@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Most Useless Website Ever</title>
+    <style>
+        body {
+            background-color: neonpink;
+            font-family: Comic Sans MS, cursive;
+            text-align: center;
+            color: lime;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-decoration: underline wavy red;
+        }
+
+        marquee {
+            font-size: 30px;
+            color: yellow;
+            background-color: cyan;
+        }
+
+        .rainbow-text {
+            animation: rainbow 1s infinite;
+        }
+
+        @keyframes rainbow {
+            0% {color: red;}
+            20% {color: orange;}
+            40% {color: yellow;}
+            60% {color: green;}
+            80% {color: blue;}
+            100% {color: violet;}
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+            transform: rotate(45deg);
+            border: 20px dotted purple;
+        }
+
+        a {
+            font-size: 40px;
+            color: red;
+            text-decoration: none;
+            background-color: yellow;
+        }
+
+        a:hover {
+            font-size: 80px;
+            transform: rotate(360deg);
+        }
+
+        .blink {
+            animation: blink 0.5s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% {opacity: 0;}
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="rainbow-text blink">WELCOME TO THE MOST USELESS WEBSITE</h1>
+
+    <marquee behavior="scroll" direction="left">This website serves absolutely no purpose!</marquee>
+
+    <img src="https://placekitten.com/500/500" alt="Kitten at a weird angle">
+
+    <p><a href="https://www.youtube.com/watch?v=pW70nJnV_g0">Click me, I do nothing!</a></p>
+
+    <footer>
+        Copyright © 3023. We don't care.
+    </footer>
+</body>
+</html>
